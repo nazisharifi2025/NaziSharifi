@@ -36,8 +36,9 @@ function Navbar() {
     ]
     const PathName = usePathname();
   return (
-    <div className='w-full h-15 py-7 px-12  fixed bg-black/10 flex items-center justify-between'>
-        <h1 className=" font-bold text-3xl font-serif bg-linear-to-l from-blue-300  to-blue-900 text-transparent  bg-clip-text">Nazi Sharifi</h1>
+    <div className="w-full flex justify-center fixed top-3 items-center">
+    <div className='w-[60%] border border-stone-400 mx-auto h-15 py-7 px-3   bg-stone-400/20 flex items-center justify-between'>
+        <h1 className=" font-bold text-3xl font-serif bg-linear-to-l from-blue-300  to-blue-900 text-transparent  bg-clip-text">Nazi</h1>
         <ul className='flex gap-5 text-xl text-stone-400'>
           {Navbar.map((nav)=>{
             const isActive = PathName === nav.href || (PathName.startsWith('nav.href') && nav.href !== '/');
@@ -50,6 +51,7 @@ function Navbar() {
 
           </ul>
         <button className='px-4 py-2 border-white text-white border rounded-xl font-bold'>Let's Taik</button>
+    </div>
     </div>
   )
 }
