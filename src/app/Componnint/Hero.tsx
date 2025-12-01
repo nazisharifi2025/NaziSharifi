@@ -1,5 +1,6 @@
 import { Github, Instagram, Linkedin } from "lucide-react"
 import Link from "next/link";
+import Image from "next/image";
 function Hero() {
   return (
     <div className='h-screen w-full bg-cover bg-center bg-[url(/image.avif)]'>
@@ -7,7 +8,7 @@ function Hero() {
         <div className='w-[60%] h-[80%] flex flex-col gap-4 mx-auto justify-center   relative'>
             <div className="h-[40%] w-[70%] bg-linear-to-l from-blue-400/10 via-black/40 to-fuchsia-400/10 absolute top-[40%] rounded-full "></div>
             <span className='text-cyan-600 font-bold  text-xl'>Salam, I'm</span>
-            <h1 className='text-8xl font-bold bg-linear-to-l from-fuchsia-200 via-fuchsia-700 text-transparent bg-clip-text to-blue-400'>Nazi Sharifi</h1>
+            <h1 className='text-8xl font-bold z-40 bg-linear-to-l from-fuchsia-200 via-fuchsia-700 text-transparent bg-clip-text to-blue-400'>Nazi Sharifi</h1>
             <h2 className='text-4xl text-stone-400 font-medium text-shadow-blue-400 '>Backend Developer & Frontend Developer</h2>
             <p className=' w-[80%]  text-xl text-stone-400'>I build modern, responsive websites that help brands grow and get noticed online. Passionate about collaborating with creative minds and exploring opportunities to learn and innovate.</p>
             <div className='flex gap-5 items-center mt-12'>
@@ -19,8 +20,10 @@ function Hero() {
         {/* div text endded */}
         <div className="w-[40%] h-[80%] flex flex-col justify-center items-center">
             <div className="h-82 w-82 rounded-full border-8 border-stone-400 relative shadow-xl shadow-gray-400/20">
-              <img src="/me1.png" className="h-full w-full rounded-full" alt="/me.jpg" />
-               <div className="h-52 w-52 rounded-full border-8  border-stone-400 absolute -bottom-12 shadow-xl shadow-gray-400/20 -left-26"><img src="/C.webp" className="h-full w-full rounded-full" alt="" /></div>
+              <Image src="/me1.png" alt="me1.png" className="h-full w-full rounded-full" height={800} width={800}  />
+               <div className="h-52 w-52 rounded-full border-8  border-stone-400 absolute -bottom-12 shadow-xl shadow-gray-400/20 -left-26">
+               <Image src="/C.webp" alt="me1.png" className="h-full w-full rounded-full" height={800} width={800}  />
+               </div>
             </div>
            
         </div>
