@@ -1,4 +1,5 @@
 import AboutUs from "./Componnint/AboutUs";
+import Footer from "./Componnint/Footer";
 import Hero from "./Componnint/Hero";
 import Mysceel from "./Componnint/Mysceel";
 import Navbar from "./Componnint/Navbar";
@@ -11,6 +12,7 @@ export default function Home() {
     <AboutUs />
     <Mysceel />
     <Project />
+    <Footer/>
    </div>
   );
 }

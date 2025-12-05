@@ -11,17 +11,17 @@ function Navbar() {
         {
             id: 2,
             Name: 'About',
-            href: '/about'  
+            href: '#aboutme'  
         },
         {
             id: 3,
             Name: 'Skills',
-            href: '/Bloge'
+            href: '#scill'
         },
         {
             id: 4,  
             Name: 'Projects',
-            href: '/product'
+            href: '#project'
         },
         {
             id: 5,  
@@ -31,7 +31,7 @@ function Navbar() {
         {
             id: 6,  
             Name: 'Contact',
-            href: '/Contact'
+            href: '/contactme'
         },
     ]
     const PathName = usePathname();
