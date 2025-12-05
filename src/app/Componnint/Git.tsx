@@ -1,7 +1,40 @@
 import { Github, Instagram, Linkedin } from 'lucide-react'
-import React from 'react'
+import React, { useState } from 'react'
 
 function Git() {
+      const [name,setName] = useState("");
+    const [email,setEmail] = useState("");
+    const [subject,setSubject] = useState("");
+    const [Messege,setMessege] = useState("");
+    function Handelclick(e:any){
+        e.preventDefault();
+        const publi_key = "dBf6x-D_GzZLr3gSr";
+        const template_id = "template_r756xnc";
+        const service_id = "service_ve0cr4c";
+        const content= {
+            from_name : name,
+            from_email : email,
+            subject : subject,
+            to_name : "Nazi Sharifi",
+            message: Messege
+        };
+    emailjs
+      .send(service_id,template_id ,content, {
+        publicKey: publi_key,
+      })
+   .then(() => {
+    alert('SUCCESS!');
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessege("");
+})
+.catch((error) => {
+     console.error(error); 
+    alert('FAILED...');
+});
+
+    }
   return (
         <section id='Contuct' className='lg:h-screen h-fit w-full bg-black pt-32 text-stone-400 text-nav flex flex-col justify-center items-center font-body'>
         <h1 className='text-4xl lg:my-0 md:my-0 '>Get In <span className='font-serif text-stone-300'>Touch</span></h1>
@@ -39,9 +72,9 @@ function Git() {
         <input type="text" className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='Nazi' />
         <label htmlFor="">Your Email</label>
         <input type="text" className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='nazisharifi415@gmail.com' />
-        <label htmlFor="">Your Subject</label>
-        <textarea type="text" className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='Hi there , i am Writing this to..' />
-        <button className='px-6 py-2 bg-stone-400 text-black rounded-sm w-fit'>Send Messege</button>
+        <label htmlFor="">Your Message</label>
+         <textarea  value={Messege} onChange={(e)=> setMessege(e.target.value)}  placeholder='Hi there , i am Writing this to..' className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' />
+        <button onClick={()=>Handelclick()} className='px-6 py-2 bg-stone-400 text-black rounded-sm w-fit'>Send Messege</button>
     </form>
     </div>
     </div>
