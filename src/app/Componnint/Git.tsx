@@ -1,6 +1,6 @@
 import { Github, Instagram, Linkedin } from 'lucide-react'
 import React, { useState } from 'react'
-
+import emailjs from '@emailjs/browser';
 function Git() {
       const [name,setName] = useState("");
     const [email,setEmail] = useState("");
@@ -67,14 +67,16 @@ function Git() {
         </div>
           <div className='lg:w-1/2 w-full h-full flex flex-col items-center justify-center'>
     <h1 className='text-2xl text-nav py-6'>Send A Messege</h1>
-    <form className='w-full flex justify-center items-center flex-col gap-5'>
+    <form onSubmit={Handelclick} className='w-full flex justify-center items-center flex-col gap-5'>
         <label htmlFor="">Your Name</label>
-        <input type="text" className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='Nazi' />
+        <input type="text"  value={name} onChange={(e)=> setName(e.target.value)} className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='Nazi' />
         <label htmlFor="">Your Email</label>
-        <input type="text" className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='nazisharifi415@gmail.com' />
+        <input type="text"  value={email} onChange={(e)=> setEmail(e.target.value)} className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='Nazisharifi415@gmail.com' />
+        <label htmlFor="">Your Sobject</label>
+         <input value={subject} onChange={(e)=> setSubject(e.target.value)}  type="text" placeholder="Subject" className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' />
         <label htmlFor="">Your Message</label>
          <textarea  value={Messege} onChange={(e)=> setMessege(e.target.value)}  placeholder='Hi there , i am Writing this to..' className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' />
-        <button onClick={()=>Handelclick()} className='px-6 py-2 bg-stone-400 text-black rounded-sm w-fit'>Send Messege</button>
+        <button  className='px-6 py-2 bg-stone-400 text-black rounded-sm w-fit'>Send Messege</button>
     </form>
     </div>
     </div>
