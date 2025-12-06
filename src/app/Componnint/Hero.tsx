@@ -8,7 +8,7 @@ function Hero() {
         <div className='w-[60%] h-[80%] flex flex-col gap-4 mx-auto justify-center   relative'>
             <div className="h-[40%] w-[70%] bg-linear-to-l from-blue-400/10 via-black/40 to-fuchsia-400/10 absolute top-[40%] rounded-full "></div>
             <span className='text-cyan-600 font-bold  text-xl'>Salam, I'm</span>
-            <h1 className='text-8xl font-bold z-40 bg-linear-to-l from-fuchsia-200 via-fuchsia-700 text-transparent bg-clip-text to-blue-400'>Nazi Sharifi</h1>
+            <h1 className='text-8xl font-bold z-40 bg-linear-to-l from-fuchsia-200 via-fuchsia-700/20 text-transparent bg-clip-text to-blue-400/20'>Nazi Sharifi</h1>
             <h2 className='text-4xl text-stone-400 font-medium text-shadow-blue-400 '>Backend Developer & Frontend Developer</h2>
             <p className=' w-[80%]  text-xl text-stone-400'>I build modern, responsive websites that help brands grow and get noticed online. Passionate about collaborating with creative minds and exploring opportunities to learn and innovate.</p>
             <div className='flex gap-5 items-center mt-12'>

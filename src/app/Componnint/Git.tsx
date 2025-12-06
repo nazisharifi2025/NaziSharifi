@@ -36,8 +36,8 @@ function Git() {
 
     }
   return (
-        <section id='Contuct' className='lg:h-screen h-fit w-full bg-black pt-32 text-stone-400 text-nav flex flex-col justify-center items-center font-body'>
-        <h1 className='text-4xl lg:my-0 md:my-0 '>Get In <span className='font-serif text-stone-300'>Touch</span></h1>
+        <section id='Contuct' className='lg:h-screen h-fit w-full bg-black pt-32 text-gray-400 text-nav flex flex-col justify-center items-center font-body'>
+        <h1 className='text-4xl lg:my-0 md:my-0 '>Get In <span className='font-serif text-gray-400'>Touch</span></h1>
     <div className='h-[90%] w-full  flex justify-between lg:flex-row flex-col my-12 items-center'>
         <div className='lg:w-1/2 w-full h-full flex flex-col justify-center items-center'>
         <h1 className='font-bold text-3xl'>Contact Information</h1>
