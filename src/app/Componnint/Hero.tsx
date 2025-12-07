@@ -16,6 +16,7 @@ function Hero() {
                <button className=" p-3 text-white rounded-full border border-stone-400 bg-stone-950 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50"><Link href="https://www.linkedin.com/in/nazi-sharifi-102735368/" target="_blank"> <Linkedin/></Link> </button>
                <button className=" p-3 text-white rounded-full border border-stone-400 bg-stone-950 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50"><Link href="https://www.instagram.com/nazthe_coder?igsh=bWFzcGxoaXhhcXY0" target="_blank"> <Instagram/> </Link></button>
             </div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, sunt officiis? Illum, vero vel ab fuga maxime eveniet laudantium fugiat modi laborum incidunt omnis voluptas quos ipsam quas non sunt.
         </div>
         {/* div text endded */}
         <div className="w-[40%] h-[80%] flex flex-col justify-center items-center">
