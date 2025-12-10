@@ -38,7 +38,8 @@ function Project() {
             date: "9/24/2025",
             a: "PhP",
             b: "Tailwind Css",
-            c: "SQL"
+            c: "SQL",
+            d: "JavasCript"
         },
               {
             id: 4,
