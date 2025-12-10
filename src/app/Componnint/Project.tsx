@@ -9,28 +9,48 @@ function Project() {
             img: "/project4.png",
             name: "Flowtrest",
             dis: "A modern, interactive web app to explore, organize, and share your favorite flowers with stunning visuals and smooth user experience.",
-            link: "https://flowernest.vercel.app/"
+            link: "https://flowernest.vercel.app/",
+            date: "8/12/2025",
+              a: "React",
+            b: "Tailwind Css",
+            c: "Api",
+            d: "Email Js"
+
         },
         {
             id: 2,
             img: "/project2.png",
             name: "Conistraction Company",
             dis: "A modern, interactive web app to explore, organize, and share your favorite flowers with stunning visuals and smooth user experience.",
-            link: "https://construction-compani-app.vercel.app/"
+            link: "https://construction-compani-app.vercel.app/",
+            date: "10/34/2025",
+              a: "React",
+            b: "Tailwind Css",
+            c: "Api",
+            d: "Email Js"
         },
         {
             id: 3,
-            img: "/project1.png",
-            name: "Dentall Clinic",
+            img: "/project5.png",
+            name: "Dashbord Center",
             dis: "A modern, interactive web app to explore, organize, and share your favorite flowers with stunning visuals and smooth user experience.",
-            link: ""
+            link: "",
+            date: "9/24/2025",
+            a: "PhP",
+            b: "Tailwind Css",
+            c: "SQL"
         },
               {
             id: 4,
             img: "/project3.png",
             name: "Charety",
             dis: "A modern, interactive web app to explore, organize, and share your favorite flowers with stunning visuals and smooth user experience.",
-            link: "https://charity-gamma-khaki.vercel.app/"
+            link: "https://charity-gamma-khaki.vercel.app/",
+            date: "7/5/2025",
+             a: "React",
+            b: "Tailwind Css",
+            c: "Mode",
+            d: "JavasCript"
         },
     ]
   return (
@@ -49,14 +69,15 @@ function Project() {
                 <div className='p-5 flex flex-col gap-4  '>
                     <h1 className='font-bold text-3xl text-stone-400 group-hover:text-fuchsia-400 transition-all duration-300'>{Pro.name}</h1>
                     <p className='text-xl text-stone-400'>{Pro.dis}</p>
-                    <a className='text-xl text-stone-300 hover:text-blue-500' href={Pro.link}>{Pro.link}</a>
+                    <a className='text-xl text-stone-300 hover:text-blue-400' href={Pro.link}>{Pro.link}</a>
                     <div className='w-full flex justify-between items-center'>
                     <div className='flex space-x-3 px-4 '>
-                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>React Js</button>
-                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>Tailwind Css</button>
-                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>API</button>
+                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.a}</button>
+                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.b}</button>
+                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.c}</button>
+                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.d}</button>
                     </div>
-                    <span className='flex gap-1 text-stone-400'><Calendar />8/12/2025</span>
+                    <span className='flex gap-1 text-stone-400'><Calendar />{Pro.date}</span>
                     </div>
                 </div>
             </div>
