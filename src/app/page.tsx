@@ -6,7 +6,7 @@ import Navbar from "./Componnint/Navbar";
 import Project from "./Componnint/Project";
 export default function Home() {
   return (
-   <div className="bg-black  w-full">
+   <div className="bg-gray-950  w-full">
     <Navbar />
     <Hero />
     <AboutUs />

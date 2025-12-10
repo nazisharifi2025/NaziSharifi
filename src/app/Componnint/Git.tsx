@@ -1,5 +1,6 @@
+"use client"
 import { Github, Instagram, Linkedin } from 'lucide-react'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import emailjs from '@emailjs/browser';
 function Git() {
       const [name,setName] = useState("");
@@ -36,9 +37,9 @@ function Git() {
 
     }
   return (
-        <section id='Contuct' className='lg:h-screen h-fit w-full bg-black pt-32 text-gray-400 text-nav flex flex-col justify-center items-center font-body'>
+        <section id='Contuct' className='lg:h-screen h-fit w-full bg-stone-800 pt-32 text-gray-400 text-nav flex flex-col justify-center items-center font-body'>
         <h1 className='text-4xl lg:my-0 md:my-0 '>Get In <span className='font-serif text-gray-400'>Touch</span></h1>
-    <div className='h-[90%] w-full  flex justify-between lg:flex-row flex-col my-12 items-center'>
+    <div className='h-[90%] w-[90%]  flex justify-between lg:flex-row flex-col my-12 items-center'>
         <div className='lg:w-1/2 w-full h-full flex flex-col justify-center items-center'>
         <h1 className='font-bold text-3xl'>Contact Information</h1>
         <div className='h-fit w-full flex flex-col lg:gap-7 md:gap-7 gap-0 '>
@@ -68,14 +69,18 @@ function Git() {
           <div className='lg:w-1/2 w-full h-full flex flex-col items-center justify-center'>
     <h1 className='text-2xl text-nav py-6'>Send A Messege</h1>
     <form onSubmit={Handelclick} className='w-full flex justify-center items-center flex-col gap-5'>
-        <label htmlFor="">Your Name</label>
-        <input type="text"  value={name} onChange={(e)=> setName(e.target.value)} className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='Nazi' />
-        <label htmlFor="">Your Email</label>
-        <input type="text"  value={email} onChange={(e)=> setEmail(e.target.value)} className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='Nazisharifi415@gmail.com' />
-        <label htmlFor="">Your Sobject</label>
-         <input value={subject} onChange={(e)=> setSubject(e.target.value)}  type="text" placeholder="Subject" className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' />
-        <label htmlFor="">Your Message</label>
-         <textarea  value={Messege} onChange={(e)=> setMessege(e.target.value)}  placeholder='Hi there , i am Writing this to..' className='lg:w-[60%] w-[80%] outline-0 border text-nav rounded-md py-3' />
+        <label htmlFor="" className='flex flex-col gap-2 w-[60%]'>Your Name
+        <input type="text"  value={name} onChange={(e)=> setName(e.target.value)} className='lg:w-full w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='Nazi' />
+        </label>
+        <label htmlFor="" className='flex flex-col gap-2 w-[60%]'>Your Email
+        <input type="text"  value={email} onChange={(e)=> setEmail(e.target.value)} className='lg:w-full w-[80%] outline-0 border text-nav rounded-md py-3' placeholder='Nazisharifi415@gmail.com' />
+        </label>
+        <label htmlFor="" className='flex flex-col gap-2 w-[60%]'>Your Sobject
+         <input value={subject} onChange={(e)=> setSubject(e.target.value)}  type="text" placeholder="Subject" className='lg:w-full w-[80%] outline-0 border text-nav rounded-md py-3' />
+         </label>
+        <label htmlFor="" className='flex flex-col gap-2 w-[60%]'>Your Message
+         <textarea  value={Messege} onChange={(e)=> setMessege(e.target.value)}  placeholder='Hi there , i am Writing this to..' className='lg:w-full w-[80%] outline-0 border text-nav rounded-md py-3' />
+            </label>
         <button  className='px-6 py-2 bg-stone-400 text-black rounded-sm w-fit'>Send Messege</button>
     </form>
     </div>

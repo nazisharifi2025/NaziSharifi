@@ -6,7 +6,7 @@ import Footer from '../Componnint/Footer'
 
 function page() {
   return (
-    <div className='h-fit bg-black w-full'>
+    <div className='h-fit bg-gray-950 w-full'>
         <Navbar />
         <Git />
         <Footer />

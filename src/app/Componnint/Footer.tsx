@@ -4,7 +4,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='h-[50vh] w-full  flex flex-col justify-center items-center text-stone-300/30 bg-gray-700/20 mt-12 gap-5'>
+    <div className='h-[50vh] w-full  flex flex-col justify-center items-center text-stone-300/30 bg-gray-900/20 mt-12 gap-5'>
         <div className='w-full grid grid-cols-3 justify-between items-center px-12 '>
             <div className='flex flex-col '>
                 <h1 className=" font-bold text-3xl font-serif bg-linear-to-l from-blue-300  to-blue-900 text-transparent  bg-clip-text">Nazi</h1>
@@ -18,7 +18,7 @@ function Footer() {
             {/* one div endded */}
             <div className='flex flex-col gap-2 items-center justify-center'>
                 <h1 className='text-2xl'>Quick Links</h1>
-                <ul className='flex flex-col text-xl'>
+                <ul className='flex flex-col gap-3 text-xl'>
                     <Link href="">Home</Link>
                     <Link href="">About</Link>
                     <Link href="">Skills</Link>

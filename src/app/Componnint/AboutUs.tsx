@@ -2,8 +2,8 @@ import { Codesandbox, Database } from "lucide-react"
 
 function AboutUs() {
   return (
-    <section id="aboutme" className="h-fit  w-full flex-col justify-center items-center p-5">
-        <h1 className="text-5xl mx-auto text-center items-center font-extrabold bg-linear-to-l from-blue-400 via-fuchsia-700 text-transparent bg-clip-text to-blue-400">About Me</h1>
+    <section id="aboutme" className="h-fit   w-full flex-col justify-center items-center p-5">
+        <h1 className='text-5xl font-bold font-web bg-linear-to-r from-white/30 via-blue-400 to-fuchsia-400/40 text-transparent bg-clip-text mx-auto text-center'>About Me</h1>
         <div className="w-full grid grid-cols-2 mt-12 gap-3">
             <div className=" flex flex-col gap-8 justify-center  mx-auto p-8 rounded-xl  ">
           <h1 className="text-4xl font-bold  text-stone-300">Step into the World of Code</h1>
@@ -16,7 +16,7 @@ Since then, every project has taught me to think smarter, write cleaner code, an
             </div>
           {/* div 1 */}
           <div className=" flex flex-col gap-5 ">
-            <div className="w-full rounded-md border border-violet-500/50 p-4 shadow-[0_0_15px_0_rgba(0,0,0,0.3)] shadow-fuchsia-600/20 flex flex-col gap-4">
+            <div className="w-full rounded-md border  p-4 shadow-[0_0_15px_0_rgba(0,0,0,0.3)] shadow-fuchsia-600/20 flex flex-col gap-4">
               <h1 className="font-bold text-2xl text-white flex items-center gap-2"><Codesandbox size={32}/> Frontend Developer</h1>
               <span className="text-sm text-stone-400">Built responsive, high-performance UIs with React and Next.js, focusing on speed and accessibility.Optimized frontend performance to deliver fast and seamless user experiences.
 
@@ -30,7 +30,7 @@ Turned every project into an opportunity to learn, grow, and create better solut
 </div>
             </div>
             {/* div 1 */}
-            <div className="w-full rounded-md border border-violet-500/50 p-4 shadow-[0_0_15px_0_rgba(0,0,0,0.3)] shadow-fuchsia-600/20 flex flex-col gap-4">
+            <div className="w-full rounded-md border  p-4 shadow-[0_0_15px_0_rgba(0,0,0,0.3)] shadow-fuchsia-600/20 flex flex-col gap-4">
               <h1 className="font-bold text-2xl text-white flex items-center gap-2"><Database size={32}/> Backend Developer</h1>
               <span className="text-sm text-stone-400">Designed and implemented secure, efficient servers and APIs using Laravel and Node.js.
                 Managed and optimized databases and server operations for fast, reliable performance.
