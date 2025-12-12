@@ -4,7 +4,7 @@ function Mysceel() {
   return (
     <section id='scill' className='w-full h-fit bg-no-repeat bg-cover bg-center  '>
         <div className='h-full w-full flex justify-center items-center lg:py-20 py-28 px-12 flex-col gap-16'>
-            <h1 className='text-5xl font-bold font-web bg-linear-to-r from-white/30 via-blue-400 to-fuchsia-400/40 text-transparent bg-clip-text'>My Skills</h1>
+            <h1 className='text-5xl font-bold font-web bg-linear-to-l from-blue-300  to-blue-900 text-transparent bg-clip-text'>My Skills</h1>
             <div className='flex gap-12 w-full justify-center flex-wrap'>
               <div className='h-[150px] w-[300px] rounded-2xl  bg-gray-800/50 border border-fuchsia-400/20  hover:shadow-[0_0_15px_0_rgba(0,0,0,0.3)] transition-all duration-500 shadow-inner shadow-fuchsia-300/20 text-stone-200 px-12 py-6 relative '>
                 <i className="text-4xl hover:rotate-180 transform-fill transition-all absolute top-12 -left-6 duration-700 bg-nav p-4 rounded-xl animate-bounce text-red-500 fab fa-html5"></i>

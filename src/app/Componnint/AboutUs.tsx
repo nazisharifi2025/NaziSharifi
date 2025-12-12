@@ -3,7 +3,7 @@ import { Codesandbox, Database } from "lucide-react"
 function AboutUs() {
   return (
     <section id="aboutme" className="h-fit   w-full flex-col justify-center items-center p-5">
-        <h1 className='text-5xl font-bold font-web bg-linear-to-r from-white/30 via-blue-400 to-fuchsia-400/40 text-transparent bg-clip-text mx-auto text-center'>About Me</h1>
+        <h1 className='text-5xl font-bold font-web bg-linear-to-l from-blue-300  to-blue-900 text-transparent bg-clip-text mx-auto text-center'>About Me</h1>
         <div className="w-full grid grid-cols-2 mt-12 gap-3">
             <div className=" flex flex-col gap-8 justify-center  mx-auto p-8 rounded-xl  ">
           <h1 className="text-4xl font-bold  text-stone-300">Step into the World of Code</h1>
