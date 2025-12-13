@@ -2,6 +2,7 @@
 import { Github, Instagram, Linkedin } from 'lucide-react'
 import { useState } from 'react'
 import emailjs from '@emailjs/browser';
+import Link from 'next/link';
 
 function Git() {
   const [name, setName] = useState("");
@@ -47,29 +48,29 @@ function Git() {
       <div className='h-[90%] w-[90%] flex lg:flex-row flex-col my-12 items-center justify-between'>
 
         {/* Left - Info */}
-         <div className='lg:w-1/2 w-full h-full flex flex-col justify-center items-center'>
+         <div className='lg:w-1/2 w-full h-full flex flex-col gap-5 justify-center items-center'>
         <h1 className='font-bold text-3xl'>Contact Information</h1>
-        <div className='h-fit w-full flex flex-col lg:gap-7 md:gap-7 gap-0 '>
-            <div className='flex lg:gap-16 md:gap-16 gap-4 items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
+        <div className='h-fit w-full flex flex-col lg:gap-6 md:gap-7 gap-0 '>
+            <div className='flex lg:gap-16 md:gap-16 gap-4 border-b items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
                <i className="fas fa-envelope text-2xl p-3 bg-nav rounded-full"></i>
                <h2 className='text-xl'>Email <br /> Nazisharifi415@gmail.com</h2>
             </div>
             </div>
         <div className='h-fit w-full flex flex-col lg:gap-7 md:gap-7 gap-0 py-6'>
-            <div className='flex lg:gap-16 md:gap-16 gap-4 items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
+            <div className='flex lg:gap-16 md:gap-16 gap-4 border-b items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
                <i className="fas fa-phone text-2xl p-3 bg-nav rounded-full"></i>
                <h2 className='text-xl'>Phone Number <br /> +93-795-064-469</h2>
             </div>
             </div>
         <div className='h-fit w-full flex flex-col lg:gap-7 md:gap-7 gap-0 py-6'>
-            <div className='flex lg:gap-16 md:gap-16  items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
+            <div className='flex lg:gap-16 md:gap-16 border-b  items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
                <i className="fas fa-map-marker-alt text-2xl p-3 bg-nav rounded-full"></i>
                <h2 className='text-xl'>Location <br /> Ghazni Afghanistan</h2>
             </div>
-            <div className='flex space-x-14 text-nav justify-center items-center'>
-               <a href="https://github.com/nazisharifi2025"><Github/></a> 
-               <a href="https://www.linkedin.com/in/nazi-sharifi-102735368/"><Linkedin/></a> 
-                <a href="https://www.instagram.com/nazisharifi14/"><Instagram/></a>
+           <div className='flex gap-5 items-center justify-center mt-12'>
+               <button className=" p-3 text-white rounded-full border border-stone-400 bg-stone-950 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50"><Link href="https://github.com/nazisharifi2025" target="_blank"> <Github/> </Link></button>
+               <button className=" p-3 text-white rounded-full border border-stone-400 bg-stone-950 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50"><Link href="https://www.linkedin.com/in/nazi-sharifi-102735368/" target="_blank"> <Linkedin/></Link> </button>
+               <button className=" p-3 text-white rounded-full border border-stone-400 bg-stone-950 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50"><Link href="https://www.instagram.com/nazthe_coder?igsh=bWFzcGxoaXhhcXY0" target="_blank"> <Instagram/> </Link></button>
             </div>
         </div>
         </div>
@@ -80,7 +81,7 @@ function Git() {
 
           <form onSubmit={handleClick} className='w-full flex flex-col items-center gap-5'>
 
-            <label className='flex flex-col gap-2 w-[60%]'>
+            <label className='flex flex-col gap-2 w-[70%]'>
               Your Name
               <input
                 type="text"
@@ -91,7 +92,7 @@ function Git() {
               />
             </label>
 
-            <label className='flex flex-col gap-2 w-[60%]'>
+            <label className='flex flex-col gap-2 w-[70%]'>
               Your Email
               <input
                 type="text"
@@ -102,7 +103,7 @@ function Git() {
               />
             </label>
 
-            <label className='flex flex-col gap-2 w-[60%]'>
+            <label className='flex flex-col gap-2 w-[70%]'>
               Subject
               <input
                 value={subject}
@@ -113,7 +114,7 @@ function Git() {
               />
             </label>
 
-            <label className='flex flex-col gap-2 w-[60%]'>
+            <label className='flex flex-col gap-2 w-[70%]'>
               Your Message
               <textarea
                 value={message}
