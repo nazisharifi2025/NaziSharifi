@@ -50,7 +50,7 @@ function Navbar() {
 })}
 
           </ul>
-        <button className='px-4 py-2 border-white text-white border rounded-xl font-bold'>Let's Taik</button>
+        <button className='px-4 py-2 border-white text-white border rounded-xl font-bold'><Link href='#contactme'>Let's Taik</Link></button>
     </div>
     </div>
   )
