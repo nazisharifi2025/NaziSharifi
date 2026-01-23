@@ -5,7 +5,7 @@ feature: false
 excerpt: "The success of my students gives my life meaning. Teaching, when done with purpose, becomes a sacred path of service and growth."
 publishedAt: "2025-12-31"
 readTime: "4 min read"
-image: "/images/p-4.jpg"
+image: "/1.jpg"
 category: "Education"
 ---
 

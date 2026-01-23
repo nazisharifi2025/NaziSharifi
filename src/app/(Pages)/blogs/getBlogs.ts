@@ -6,7 +6,7 @@ import { remark } from "remark";
 import html from "remark-html";
 import { BlogFrontmatter, BlogPost } from "./blog";
 
-const postsDir = path.join(process.cwd(), "../../posts");
+const postsDir = path.join(process.cwd(), "/src/app/posts");
 
 export const getAllBlogs = async (): Promise<BlogPost[]> => {
   const fileNames = fs.readdirSync(postsDir);

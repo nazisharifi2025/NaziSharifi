@@ -31,3 +31,49 @@ body {
   font-style: normal;
   font-display: swap;
 }
+.markdown h1 {
+  @apply text-3xl text-[#2563eb] font-bold my-1;
+}
+.markdown h2 {
+  @apply text-2xl font-semibold text-[#2563eb] my-1;
+}
+.markdown h3 {
+  @apply text-xl text-[#2563eb] font-normal my-1;
+}
+.markdown h4 {
+  @apply text-xs font-light;
+}
+.markdown ol li {
+  @apply pl-3 md:pl-5 list-decimal list-inside;
+}
+.markdown ul li {
+  @apply pl-3 md:pl-5 list-disc list-inside;
+}
+.markdown p {
+  @apply text-justify text-base text-gray-300;
+}
+.markdown q,
+.markdown blockquote {
+  @apply border-l-2 pl-3 md:pl-5 border-gray-400;
+}
+.markdown a {
+  @apply text-blue-400;
+}
+.markdown p,
+.markdown span {
+  @apply text-justify;
+}
+.markdown i {
+  @apply font-stretch-80%;
+}
+.markdown b {
+  @apply font-bold;
+}
+.markdown table,
+.markdown table tr,
+.markdown table th,
+.markdown table td {
+  border: 1px solid #fff !important;
+  border-collapse: collapse;
+}
+
