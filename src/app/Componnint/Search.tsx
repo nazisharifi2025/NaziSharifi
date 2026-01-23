@@ -1,8 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { BlogPost } from "../(Pages)/blogs/blog";
 import Link from "next/link";
-import { ArrowRight, ChevronRight, Pen, SearchIcon, Tag } from "lucide-react";
+import { ArrowRight, SearchIcon, Tag } from "lucide-react";
 
 type Props = {
   blogs: BlogPost[];
