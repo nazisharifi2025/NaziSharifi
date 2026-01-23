@@ -26,7 +26,7 @@ function Navbar() {
         {
             id: 5,  
             Name: 'Blog',
-            href: '/Blog'
+            href: '/blogs'
         },
         {
             id: 6,  

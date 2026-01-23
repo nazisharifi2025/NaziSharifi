@@ -8,10 +8,7 @@ function AboutUs() {
             <div className=" flex flex-col gap-8 justify-center  mx-auto p-8 rounded-xl  ">
           <h1 className="text-4xl font-bold  text-stone-300">Step into the World of Code</h1>
         <p className="text-xl text-stone-500  mx-auto">
-         From the moment I stepped into the world of computers, all I wanted was to learn—without knowing exactly where I’d end up. But everything changed when I discovered HTML, then CSS and JavaScript. That’s when I realized I had found my path: with just a few lines of code, I could create something real and bring ideas to life.
-
-Since then, every project has taught me to think smarter, write cleaner code, and value user experience more deeply. Today, I proudly call myself a web developer—someone who doesn’t just write code, but builds solutions and grows with the digital future.
-
+          From the moment I entered the world of computers, my goal was simply to learn. Discovering HTML, CSS, and JavaScript changed everything—showing me how a few lines of code could turn ideas into reality. Each project since has sharpened my thinking, improved my code, and deepened my focus on user experience. Today, I’m a web developer who builds meaningful solutions and grows with the digital future.
             </p>
             </div>
           {/* div 1 */}

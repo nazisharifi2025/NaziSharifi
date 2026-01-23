@@ -29,7 +29,7 @@ function Footer() {
             </div>
             {/* div 2 */}
              <div className=' w-full h-full flex flex-col justify-center '>
-        <h1 className='font-bold text-xl'>Contact Information</h1>
+        <h1 className='font-bold text-xl mx-4'>Contact Information</h1>
         <div className='h-fit w-full flex flex-col items-start group lg:gap-7 md:gap-7 gap-0'>
             <div className='flex lg:gap-5 md:gap-16 gap-4 items-center h-fit p-2'>
                <i className="fas fa-envelope text-2xl  group-hover:text-fuchsia-300 p-3 bg-nav rounded-full"></i>
