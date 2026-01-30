@@ -3,6 +3,7 @@ import { useState } from "react";
 import { BlogPost } from "../(Pages)/blogs/blog";
 import Link from "next/link";
 import { ArrowRight, SearchIcon, Tag } from "lucide-react";
+import DataCard from "./dataCard";
 
 type Props = {
   blogs: BlogPost[];
@@ -10,12 +11,15 @@ type Props = {
 
 export default function Search({ blogs }: Props) {
   const [query, setQuery] = useState("");
-
-  const filtered = blogs.filter((blog) =>
-    blog.title.toLowerCase().includes(query.toLowerCase()) ||
-    blog.excerpt.toLowerCase().includes(query.toLowerCase()) ||
-    blog.category.toLowerCase().includes(query.toLowerCase())
-  );
+const filtered = blogs.filter(
+  (blog) =>
+    blog.feature=== false &&
+    (
+      blog.title.toLowerCase().includes(query.toLowerCase()) ||
+      blog.excerpt.toLowerCase().includes(query.toLowerCase()) ||
+      blog.category.toLowerCase().includes(query.toLowerCase())
+    )
+);
 
   return (
     <div className="my-4">
@@ -35,7 +39,8 @@ export default function Search({ blogs }: Props) {
       
       <div className="grid grid-cols-3  w-10/12 mx-auto gap-4">
         {filtered.map((blog) => (
-          <div key={blog.id} className="text-gray-400 " >
+          // <DataCard key={blog.id} blog={blog} />
+            <div className="text-gray-400 " >
             <div className="border border-fuchsia-400/20 h-[74vh] hover:border-fuchsia-400/20 shadow-fuchsia-400/40 hover:shadow-[0_0_12px_0_rgba(0,0,0,0.3)]  rounded-md  hover:-translate-y-2 transition-all duration-700 cursor-pointer">
               <img src={blog.image} className="w-full rounded-t-md h-[200px]" alt="" />
               <div className=" w-full flex flex-col h-[250px] justify-between">

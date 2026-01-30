@@ -2,7 +2,6 @@ import FeatureBlog from "@/app/Componnint/FeatureBlog";
 import Search from "@/app/Componnint/Search";
 import { getAllBlogs } from "./getBlogs"; 
 import type { BlogPost } from "./blog"; 
-import AllBlog from "@/app/Componnint/AllBlog";
 import Navbar from "@/app/Componnint/Navbar";
 import Footer from "@/app/Componnint/Footer";
 export const metadata = {

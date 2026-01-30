@@ -17,7 +17,9 @@ export default function FeatureBlog({ blogs }: Props) {
       <h2 className=" font-bold py-2 px-2 items-center bg-gray-100 gap-3 w-fit flex space-x-2 text-sm rounded-xl text-gray-700"> <span className="px-3 bg-blue-700 py-0.5  text-white rounded-full ">Featured</span> 6 min read</h2>
         <h3 className="text-4xl font-semibold text-stone-300">{featurePost.title}</h3>
       <p className="mt-2 text-gray-500">{featurePost.excerpt}</p>
-      <button className="  px-6 py-1 border bg-blue-800 border-gray-300 text-white rounded-md w-fit">Read More..</button>
+      <button className="  px-6 py-1 border bg-blue-800 border-gray-300 text-white rounded-md w-fit">
+        <Link href={`blogs/${featurePost.slug}`}>Read More..</Link>
+      </button>
       </div>
     </div>
   );
