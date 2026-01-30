@@ -20,7 +20,7 @@ function Hero() {
         {/* div text endded */}
         <div className="w-[40%] h-[80%] flex flex-col justify-center items-center">
             <div className="h-82 w-82 rounded-full border-8 border-stone-400 relative shadow-xl shadow-gray-400/20">
-              <Image src="/me2.png" alt="me1.png" className="h-full w-full rounded-full" height={800} width={800}  />
+              <Image src="/1769718988117.jpg" alt="me1.png" className="h-full w-full rounded-full" height={800} width={800}  />
                <div className="h-52 w-52 rounded-full border-8  border-stone-400 absolute -bottom-12 shadow-xl shadow-gray-400/20 -left-26">
                <Image src="/C.webp" alt="me1.png" className="h-full w-full rounded-full" height={800} width={800}  />
                </div>

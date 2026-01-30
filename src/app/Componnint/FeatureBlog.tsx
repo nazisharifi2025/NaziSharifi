@@ -11,7 +11,7 @@ export default function FeatureBlog({ blogs }: Props) {
   if (!featurePost) return null;
 
   return (
-    <div className="mb-8 h-[57vh] mx-auto border border-fuchsia-900/40 bg-transparent flex rounded-lg w-10/12 shadow-md">
+    <div className="mb-8 h-[59vh] mx-auto border border-fuchsia-900/40 bg-transparent flex rounded-lg w-10/12 shadow-md">
       <img src={featurePost.image} className="h-full w-[500px] rounded-l-lg" alt="" />
       <div className=" w-1/2 pl-12 py-4 flex flex-col gap-4">
       <h2 className=" font-bold py-2 px-2 items-center bg-gray-100 gap-3 w-fit flex space-x-2 text-sm rounded-xl text-gray-700"> <span className="px-3 bg-blue-700 py-0.5  text-white rounded-full ">Featured</span> 6 min read</h2>
