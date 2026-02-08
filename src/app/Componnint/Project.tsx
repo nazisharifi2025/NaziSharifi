@@ -56,23 +56,23 @@ function Project() {
     ]
   return (
     <section id='project' className='flex flex-col justify-center items-center gap-12'>
-        <h1 className='text-5xl font-bold font-web bg-linear-to-l from-blue-300  to-blue-900 text-transparent bg-clip-text'>Featured Projects</h1>
-        <div className='w-[90%] mx-auto  px-3 h-fit grid grid-cols-2 gap-2'>
+        <h1 className='md:text-5xl text-4xl font-bold font-web bg-linear-to-l from-blue-300  to-blue-900 text-transparent bg-clip-text'>Featured Projects</h1>
+        <div className='md:w-[90%] w-full mx-auto  px-3 h-fit grid lg:grid-cols-2 grid-cols-1 gap-2'>
             {project.map((Pro)=>(
             <div key={Pro.id} className='flex-col p-b12 rounded-xl border border-stone-400/20 hover:shadow-[0_0_15px_0_rgba(0,0,0,0.3)] transition-all duration-500 shadow-inner shadow-fuchsia-300/20 hover:border-fuchsia-400/60 group'>
-                <div className='w-full h-[300px]  rounded-xl rounded-b-none relative overflow-hidden '>
+                <div className='w-full md:h-[300px] h-[250px]  rounded-xl rounded-b-none relative overflow-hidden '>
                     <img src={Pro.img} className='h-full w-full rounded-xl group-hover:scale-120 transition-all duration-500 rounded-b-none' alt="" />
                     <div className=' gap-3 absolute top-4 right-4 hidden group-hover:flex'>
                        <Link href='https://github.com/nazisharifi2025'> <Github  className=' text-white bg-stone-300/40  rounded-md border border-gray-300 p-2' size={35}/></Link>
                        <Link href='https://www.linkedin.com/in/nazi-sharifi-102735368/'> <Linkedin className=' text-white bg-stone-300/40 rounded-md border border-gray-300 p-2' size={35} /></Link>
                     </div>
                 </div>
-                <div className='p-5 flex flex-col gap-4  '>
+                <div className='md:p-5 p-2 flex flex-col gap-4  '>
                     <h1 className='font-bold text-3xl text-stone-400 group-hover:text-fuchsia-400 transition-all duration-300'>{Pro.name}</h1>
                     <p className='text-xl text-stone-400'>{Pro.dis}</p>
                     <a className='text-xl text-stone-300 hover:text-blue-400' href={Pro.link}>{Pro.link}</a>
-                    <div className='w-full flex justify-between items-center'>
-                    <div className='flex space-x-3 px-4 '>
+                    <div className='w-full flex md:flex-row flex-col justify-between md:items-center items-end'>
+                    <div className='flex flex-wrap gap-3 px-4 '>
                         <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.a}</button>
                         <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.b}</button>
                         <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.c}</button>

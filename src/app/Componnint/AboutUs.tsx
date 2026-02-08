@@ -2,12 +2,12 @@ import { Codesandbox, Database } from "lucide-react"
 
 function AboutUs() {
   return (
-    <section id="aboutme" className="h-fit   w-full flex-col justify-center items-center p-5">
+    <section id="aboutme" className="h-fit w-full flex-col justify-center items-center p-5">
         <h1 className='text-5xl font-bold font-web bg-linear-to-l from-blue-300  to-blue-900 text-transparent bg-clip-text mx-auto text-center'>About Me</h1>
-        <div className="w-full grid grid-cols-2 mt-12 gap-3">
-            <div className=" flex flex-col gap-8 justify-center  mx-auto p-8 rounded-xl  ">
-          <h1 className="text-4xl font-bold  text-stone-300">Step into the World of Code</h1>
-        <p className="text-xl text-stone-500  mx-auto">
+        <div className="w-full grid lg:grid-cols-2 grid-cols-1 mt-12 gap-3">
+            <div className=" flex flex-col gap-8 justify-center  mx-auto lg:p-8 p-2 rounded-xl  ">
+          <h1 className="md:text-4xl text-2xl font-bold  text-stone-300">Step into the World of Code</h1>
+        <p className="md:text-xl text-sm text-stone-500  mx-auto">
           From the moment I entered the world of computers, my goal was simply to learn. Discovering HTML, CSS, and JavaScript changed everything—showing me how a few lines of code could turn ideas into reality. Each project since has sharpened my thinking, improved my code, and deepened my focus on user experience. Today, I’m a web developer who builds meaningful solutions and grows with the digital future.
             </p>
             </div>
@@ -18,7 +18,7 @@ function AboutUs() {
               <span className="text-sm text-stone-400">Built responsive, high-performance UIs with React and Next.js, focusing on speed and accessibility.Optimized frontend performance to deliver fast and seamless user experiences.
 
 Turned every project into an opportunity to learn, grow, and create better solutions.</span>
-<div className="flex space-x-3">
+<div className="flex flex-wrap gap-3">
   <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Tailwind css</button>
   <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Javaiscript</button>
   <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Typescript</button>
