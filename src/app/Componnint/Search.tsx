@@ -25,7 +25,7 @@ const filtered = blogs.filter(
     <div className="my-4">
       <div className=" w-10/12 flex flex-col gap-3 justify-center items-center mx-auto">
       <h1 className="text-2xl font-bold text-gray-200">Search Blogs with titles</h1>
-      <label htmlFor="" className="w-6/12 relative mx-auto">
+      <label htmlFor="" className="lg:w-6/12 md:w-9/12 w-11/12 relative mx-auto">
         <SearchIcon size={20}  className="text-gray-500 absolute top-3 left-2 text-sm"/>
       <input
         type="text"
@@ -37,11 +37,11 @@ const filtered = blogs.filter(
       </label>
       </div>
       
-      <div className="grid grid-cols-3  w-10/12 mx-auto gap-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  lg:w-10/12 w-11/12 mx-auto gap-4">
         {filtered.map((blog) => (
           // <DataCard key={blog.id} blog={blog} />
             <div className="text-gray-400 " >
-            <div className="border border-fuchsia-400/20 h-[74vh] hover:border-fuchsia-400/20 shadow-fuchsia-400/40 hover:shadow-[0_0_12px_0_rgba(0,0,0,0.3)]  rounded-md  hover:-translate-y-2 transition-all duration-700 cursor-pointer">
+            <div className="border border-fuchsia-400/20 lg:h-[74vh] h-[55vh] hover:border-fuchsia-400/20 shadow-fuchsia-400/40 hover:shadow-[0_0_12px_0_rgba(0,0,0,0.3)]  rounded-md  hover:-translate-y-2 transition-all duration-700 cursor-pointer">
               <img src={blog.image} className="w-full rounded-t-md h-[200px]" alt="" />
               <div className=" w-full flex flex-col h-[250px] justify-between">
               <div className="flex flex-col gap-2 py-5 p-2">
