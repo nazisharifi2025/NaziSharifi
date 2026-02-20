@@ -4,7 +4,7 @@ import Image from "next/image";
 function Hero() {
   return (
     <div className='md:h-screen h-[110vh] w-full bg-cover bg-center bg-[url(/image.avif)]'>
-        <div className='h-full w-full bg-gray-950/80 flex lg:flex-row flex-col md:p-12 p-6 justify-end items-center '>
+        <div className='h-full w-full bg-gray-950/80 flex lg:flex-row flex-col md:p-12 p-6 relative justify-end items-center '>
         <div className='lg:w-[60%] md:mt-0 mt-14 w-full  lg:h-[80%] h-[90%] flex flex-col md:gap-4 gap-2 mx-auto justify-center lg:items-start items-center  relative'>
             <div className="h-[40%] w-[70%] bg-linear-to-l from-blue-400/10 via-black/40 to-fuchsia-400/10 absolute top-[40%] rounded-full "></div>
             <span className='text-cyan-600 font-bold  text-xl'>Salam, I'm</span>
@@ -27,7 +27,7 @@ function Hero() {
             </div>
            
         </div>
-         <div className="h-12 w-6 rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl font- absolute md:bottom-0 -bottom-12 right-[50%] flex justify-center items-center "><Link href="#aboutme">'</Link></div>
+         <div className="h-12 w-6 rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl absolute md:bottom-0 -bottom-16 right-[50%] flex justify-center items-center "><Link href="#aboutme">'</Link></div>
         </div>
         
     </div>
