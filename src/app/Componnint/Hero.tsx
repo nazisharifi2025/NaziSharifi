@@ -25,7 +25,7 @@ function Hero() {
                <Image src="/C.webp" alt="me1.png" className="h-full w-full rounded-full" height={800} width={800}  />
                </div>
             </div>
-           <div className="h-12 w-6 rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl absolute md:bottom-0 -bottom-12 right-[50%] md:hidden flex justify-center items-center "><Link href="#aboutme">'</Link></div>
+           <div className="h-12 w-6 rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl absolute md:bottom-0 -bottom-9 right-[50%] md:hidden flex justify-center items-center "><Link href="#aboutme">'</Link></div>
         </div>
          <div className="h-12 w-6 md:flex rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl absolute md:bottom-0 -bottom-16 right-[50%] hidden justify-center items-center "><Link href="#aboutme">'</Link></div>
         </div>
