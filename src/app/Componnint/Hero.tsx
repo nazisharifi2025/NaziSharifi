@@ -18,16 +18,16 @@ function Hero() {
             </div>
         </div>
         {/* div text endded */}
-        <div className="md:w-[40%] w-full md:h-[80%] h-[95%] flex flex-col justify-center items-end md:items-center">
+        <div className="md:w-[40%] w-full md:h-[80%] h-[95%] relative flex flex-col justify-center items-end md:items-center">
             <div className="md:h-82 md:w-82 h-64 w-64 rounded-full border-8 border-stone-400 relative shadow-xl shadow-gray-400/20">
               <Image src="/me2.png" alt="me1.png" className="h-full w-full rounded-full" height={800} width={800}  />
                <div className="md:h-52 md:w-52 h-44 w-44 rounded-full border-8  border-stone-400 absolute -bottom-12 shadow-xl shadow-gray-400/20 -left-26">
                <Image src="/C.webp" alt="me1.png" className="h-full w-full rounded-full" height={800} width={800}  />
                </div>
             </div>
-           
+           <div className="h-12 w-6 rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl absolute md:bottom-0 -bottom-12 right-[50%] md:hidden flex justify-center items-center "><Link href="#aboutme">'</Link></div>
         </div>
-         <div className="h-12 w-6 rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl absolute md:bottom-0 -bottom-16 right-[50%] flex justify-center items-center "><Link href="#aboutme">'</Link></div>
+         <div className="h-12 w-6 md:flex rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl absolute md:bottom-0 -bottom-16 right-[50%] hidden justify-center items-center "><Link href="#aboutme">'</Link></div>
         </div>
         
     </div>
