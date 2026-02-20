@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 function Hero() {
   return (
-    <div className='h-screen w-full bg-cover bg-center bg-[url(/image.avif)]'>
+    <div className='md:h-screen h-[110vh] w-full bg-cover bg-center bg-[url(/image.avif)]'>
         <div className='h-full w-full bg-gray-950/80 flex lg:flex-row flex-col md:p-12 p-6 justify-end items-center '>
         <div className='lg:w-[60%] md:mt-0 mt-14 w-full  lg:h-[80%] h-[90%] flex flex-col md:gap-4 gap-2 mx-auto justify-center lg:items-start items-center  relative'>
             <div className="h-[40%] w-[70%] bg-linear-to-l from-blue-400/10 via-black/40 to-fuchsia-400/10 absolute top-[40%] rounded-full "></div>
