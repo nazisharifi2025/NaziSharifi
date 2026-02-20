@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getAllBlogs } from "../getBlogs";
-import { Inter } from "next/font/google";
 import { ArrowLeft, BookOpenText, Clock, Tag } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
