@@ -3,7 +3,6 @@ import { useState } from "react";
 import { BlogPost } from "../(Pages)/blogs/blog";
 import Link from "next/link";
 import { ArrowRight, SearchIcon, Tag } from "lucide-react";
-import DataCard from "./dataCard";
 
 type Props = {
   blogs: BlogPost[];

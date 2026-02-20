@@ -1,8 +1,7 @@
 import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
-import { EllipsisVertical, MenuIcon } from 'lucide-react';
+import { MenuIcon } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import React from 'react'
 
 function Menunav() {
      const Navbar =[
@@ -51,12 +50,12 @@ function Menunav() {
             )
               })}
           </ul>
-        <button className='px-4 py-2 border-white text-white border rounded-xl font-bold'><Link href='#contactme'>Let's Taik</Link></button>
+        <div className='px-4 py-2 border-white text-white border rounded-xl font-bold'><Link href='#contactme'>Let's Taik</Link></div>
         </nav>
         <nav className='lg:hidden'>
             <Sheet >
                 <SheetTrigger className='flex items-center space-x-2'>
-                    <button className='px-4 py-2 border-white text-white border hidden md:flex rounded-xl font-bold'><Link href='#contactme'>Let's Taik</Link></button>
+                    <div className='px-4 py-2 border-white text-white border hidden md:flex rounded-xl font-bold'><Link href='#contactme'>Let's Taik</Link></div>
                     <MenuIcon className='text-white' size={32} />
                 </SheetTrigger>
                 <SheetContent className='p-4'>
@@ -71,8 +70,8 @@ function Menunav() {
             )
               })}
           </ul>
-          <button className='px-4 py-2 border-gray-600 w-fit text-gray-600 border rounded-xl font-bold'><Link href='#contactme'>Let's Taik</Link></button>
-        <SheetDescription></SheetDescription>
+          <div className='px-4 py-2 border-gray-600 w-fit text-gray-600 border rounded-xl font-bold'><Link href='#contactme'>Let's Taik</Link></div>
+        <SheetDescription ></SheetDescription>
                 </SheetContent>
             </Sheet>
         </nav>

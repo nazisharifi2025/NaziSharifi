@@ -1,6 +1,6 @@
 import { ArrowRight, Calendar, ChevronRight, Cylinder, CylinderIcon, Github, Linkedin } from 'lucide-react'
 import Link from 'next/link'
-import React from 'react'
+
 
 function Project() {
     const project = [
