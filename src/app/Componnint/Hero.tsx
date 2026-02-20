@@ -27,7 +27,7 @@ function Hero() {
             </div>
            
         </div>
-         <div className="h-12 w-6 rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl font- absolute bottom-0 right-[50%] flex justify-center items-center "><Link href="#aboutme">'</Link></div>
+         <div className="h-12 w-6 rounded-full border border-white p-4 text-fuchsia-400/60 my-6 animate-bounce text-5xl font- absolute md:bottom-0 -bottom-12 right-[50%] flex justify-center items-center "><Link href="#aboutme">'</Link></div>
         </div>
         
     </div>
