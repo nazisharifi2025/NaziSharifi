@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className='h-screen w-full bg-cover bg-center bg-[url(/image.avif)]'>
         <div className='h-full w-full bg-gray-950/80 flex lg:flex-row flex-col md:p-12 p-6 justify-end items-center '>
-        <div className='lg:w-[60%] md:mt-0 mt-10 w-full  lg:h-[80%] h-[90%] flex flex-col md:gap-4 gap-2 mx-auto justify-center lg:items-start items-center  relative'>
+        <div className='lg:w-[60%] md:mt-0 mt-14 w-full  lg:h-[80%] h-[90%] flex flex-col md:gap-4 gap-2 mx-auto justify-center lg:items-start items-center  relative'>
             <div className="h-[40%] w-[70%] bg-linear-to-l from-blue-400/10 via-black/40 to-fuchsia-400/10 absolute top-[40%] rounded-full "></div>
             <span className='text-cyan-600 font-bold  text-xl'>Salam, I'm</span>
             <h1 className='lg:text-8xl font-bold md:text-6xl text-3xl z-40 bg-linear-to-l from-[#042862] via-fuchsia-400 via-25% text-transparent bg-clip-text to-[#042862]'>Nazi Sharifi</h1>
