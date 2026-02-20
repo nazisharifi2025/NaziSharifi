@@ -50,7 +50,6 @@ function Menunav() {
             )
               })}
           </ul>
-        <div className='px-4 py-2 border-white text-white border rounded-xl font-bold'><Link href='#contactme'>Let's Taik</Link></div>
         </nav>
         <nav className='lg:hidden'>
             <Sheet >
