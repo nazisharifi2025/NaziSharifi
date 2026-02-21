@@ -70,7 +70,7 @@ function Project() {
                 <div className='md:p-5 p-2 flex flex-col gap-4  '>
                     <h1 className='font-bold text-3xl text-stone-400 group-hover:text-fuchsia-400 transition-all duration-300'>{Pro.name}</h1>
                     <p className='text-xl text-stone-400'>{Pro.dis}</p>
-                    <a className='text-xl text-stone-300 hover:text-blue-400' href={Pro.link}>{Pro.link}</a>
+                    <Link target='_blank' className='text-xl text-stone-300 hover:text-blue-400' href={Pro.link}>{Pro.link}</Link>
                     <div className='w-full flex md:flex-row flex-col justify-between md:items-center items-end'>
                     <div className='flex flex-wrap gap-3 px-4 '>
                         <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.a}</button>
