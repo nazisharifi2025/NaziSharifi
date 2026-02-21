@@ -81,7 +81,7 @@ function Git() {
 
           <form onSubmit={handleClick} className='w-full flex flex-col items-center gap-5'>
 
-            <label className='flex flex-col gap-2 w-[70%]'>
+            <label className='flex flex-col gap-2 md:w-[70%] w-11/12'>
               Your Name
               <input
                 type="text"
@@ -92,7 +92,7 @@ function Git() {
               />
             </label>
 
-            <label className='flex flex-col gap-2 w-[70%]'>
+            <label className='flex flex-col gap-2 md:w-[70%] w-11/12'>
               Your Email
               <input
                 type="text"
@@ -103,7 +103,7 @@ function Git() {
               />
             </label>
 
-            <label className='flex flex-col gap-2 w-[70%]'>
+            <label className='flex flex-col gap-2 md:w-[70%] w-11/12'>
               Subject
               <input
                 value={subject}
@@ -114,7 +114,7 @@ function Git() {
               />
             </label>
 
-            <label className='flex flex-col gap-2 w-[70%]'>
+            <label className='flex flex-col gap-2 md:w-[70%] w-11/12'>
               Your Message
               <textarea
                 value={message}
