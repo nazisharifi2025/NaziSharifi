@@ -63,8 +63,8 @@ function Project() {
                 <div className='w-full md:h-[300px] h-[250px]  rounded-xl rounded-b-none relative overflow-hidden '>
                     <img src={Pro.img} className='h-full w-full rounded-xl group-hover:scale-120 transition-all duration-500 rounded-b-none' alt="" />
                     <div className=' gap-3 absolute top-4 right-4 hidden group-hover:flex'>
-                       <Link href='https://github.com/nazisharifi2025'> <Github  className=' text-white bg-stone-300/40  rounded-md border border-gray-300 p-2' size={35}/></Link>
-                       <Link href='https://www.linkedin.com/in/nazi-sharifi-102735368/'> <Linkedin className=' text-white bg-stone-300/40 rounded-md border border-gray-300 p-2' size={35} /></Link>
+                       <Link target='_blank' href='https://github.com/nazisharifi2025'> <Github  className=' text-white bg-stone-300/40  rounded-md border border-gray-300 p-2' size={35}/></Link>
+                       <Link target='_blank' href='https://www.linkedin.com/in/nazi-sharifi-102735368/'> <Linkedin className=' text-white bg-stone-300/40 rounded-md border border-gray-300 p-2' size={35} /></Link>
                     </div>
                 </div>
                 <div className='md:p-5 p-2 flex flex-col gap-4  '>
