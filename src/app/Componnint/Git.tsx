@@ -120,7 +120,7 @@ function Git() {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder='Hi there, I am writing this to...'
-                className='outline-0 border text-nav rounded-md py-3'
+                className='outline-0 border text-nav rounded-md py-3 resize-none h-36'
               />
             </label>
 
