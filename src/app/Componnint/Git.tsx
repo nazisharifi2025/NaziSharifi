@@ -51,19 +51,19 @@ function Git() {
          <div className='lg:w-1/2 w-full h-full flex flex-col gap-5 justify-center items-center'>
         <h1 className='font-bold text-3xl'>Contact Information</h1>
         <div className='h-fit w-full flex flex-col lg:gap-6 md:gap-7 gap-0 '>
-            <div className='flex lg:gap-16 md:gap-16 gap-4 border-b items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
+            <div className='flex lg:gap-16 md:gap-16 gap-4  items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
                <i className="fas fa-envelope text-2xl p-3 bg-nav rounded-full"></i>
                <h2 className='text-xl'>Email <br /> Nazisharifi415@gmail.com</h2>
             </div>
             </div>
         <div className='h-fit w-full flex flex-col lg:gap-7 md:gap-7 gap-0 py-6'>
-            <div className='flex lg:gap-16 md:gap-16 gap-4 border-b items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
+            <div className='flex lg:gap-16 md:gap-16 gap-4  items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
                <i className="fas fa-phone text-2xl p-3 bg-nav rounded-full"></i>
                <h2 className='text-xl'>Phone Number <br /> +93-795-064-469</h2>
             </div>
             </div>
         <div className='h-fit w-full flex flex-col lg:gap-7 md:gap-7 gap-0 py-6'>
-            <div className='flex lg:gap-16 md:gap-16 border-b  items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
+            <div className='flex lg:gap-16 md:gap-16   items-center lg:w-[60%] md:w-[60%] w-[95%] mx-auto h-fit p-2'>
                <i className="fas fa-map-marker-alt text-2xl p-3 bg-nav rounded-full"></i>
                <h2 className='text-xl'>Location <br /> Ghazni Afghanistan</h2>
             </div>
