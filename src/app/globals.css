@@ -180,7 +180,8 @@
 }
 /* animit */
 
-.circle-animate {
+@layer utilities {
+  .circle-animate {
   animation: circle infinite 4s linear;
 }
 @keyframes circle {
@@ -200,4 +201,5 @@
     transform: translate(0px, 0px) scale(1);
     opacity: 1;
   }
+}
 }
