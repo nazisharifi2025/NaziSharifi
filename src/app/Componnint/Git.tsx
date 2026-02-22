@@ -87,7 +87,7 @@ function Git() {
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className='outline-0 p-2 border text-nav rounded-md py-3'
+                className='outline-0 px-2 py-2 border text-nav rounded-md py-3'
                 placeholder='Nazi'
               />
             </label>
@@ -98,7 +98,7 @@ function Git() {
                 type="text"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className='outline-0 p-2 border text-nav rounded-md py-3'
+                className='outline-0 px-2 py-2 border text-nav rounded-md py-3'
                 placeholder='Nazisharifi415@gmail.com'
               />
             </label>
@@ -110,7 +110,7 @@ function Git() {
                 onChange={(e) => setSubject(e.target.value)}
                 type="text"
                 placeholder="Subject"
-                className='outline-0 p-2 border text-nav rounded-md py-3'
+                className='outline-0 px-2 py-2 border text-nav rounded-md py-3'
               />
             </label>
 
@@ -120,7 +120,7 @@ function Git() {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder='Hi there, I am writing this to...'
-                className='outline-0 p-2 border text-nav rounded-md py-3 resize-none h-36'
+                className='outline-0 px-2 py-2 border text-nav rounded-md py-3 resize-none h-36'
               />
             </label>
 
