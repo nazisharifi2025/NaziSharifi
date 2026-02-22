@@ -34,10 +34,10 @@ Turned every project into an opportunity to learn, grow, and create better solut
                 Every project has been an opportunity to improve application logic, enhance scalability, and deliver professional solutions.
 </span>
 <div className="flex space-x-3">
-  <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">PhP</button>
-  <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Laravel</button>
-  <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Node.Js</button>
-  <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">SQL</button>
+  <button className="text-sm px-4 py-1.5 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 rounded-full border text-stone-200 border-stone-500">PhP</button>
+  <button className="text-sm px-4 py-1.5 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 rounded-full border text-stone-200 border-stone-500">Laravel</button>
+  <button className="text-sm px-4 py-1.5 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 rounded-full border text-stone-200 border-stone-500">Node.Js</button>
+  <button className="text-sm px-4 py-1.5 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 rounded-full border text-stone-200 border-stone-500">SQL</button>
 </div>
             </div>
           </div>
