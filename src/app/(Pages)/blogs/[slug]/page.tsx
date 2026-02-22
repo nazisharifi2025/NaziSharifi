@@ -59,7 +59,7 @@ export default async function Page({ params }: Props) {
           alt={blog.title}
           width={1000}
           height={1000}
-          className="rounded-md shadow-custom/35 mb-4 w-full h-80 object-cover"
+          className="rounded-md shadow-custom/35 mb-4 w-full h-[90vh] object-cover"
         />
 
         <div className="markdown prose-lg mx-auto my-2">
