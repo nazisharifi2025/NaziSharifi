@@ -19,11 +19,11 @@ function AboutUs() {
 
 Turned every project into an opportunity to learn, grow, and create better solutions.</span>
 <div className="flex flex-wrap gap-3">
-  <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Tailwind css</button>
-  <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Javaiscript</button>
-  <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Typescript</button>
-  <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">React js</button>
-  <button className="text-sm px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Next Js</button>
+  <button className="text-sm hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Tailwind css</button>
+  <button className="text-sm hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Javaiscript</button>
+  <button className="text-sm hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Typescript</button>
+  <button className="text-sm hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">React js</button>
+  <button className="text-sm hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 px-4 py-1.5 rounded-full border text-stone-200 border-stone-500">Next Js</button>
 </div>
             </div>
             {/* div 1 */}
