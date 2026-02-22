@@ -40,7 +40,7 @@ const filtered = blogs.filter(
         {filtered.map((blog) => (
           // <DataCard key={blog.id} blog={blog} />
             <div className="text-gray-400 " >
-            <div className="border border-fuchsia-400/20 lg:h-[76vh] h-[55vh] hover:border-fuchsia-400/20 shadow-fuchsia-400/40 hover:shadow-[0_0_12px_0_rgba(0,0,0,0.3)]  rounded-md  hover:-translate-y-2 transition-all duration-700 cursor-pointer">
+            <div className="border border-fuchsia-400/20 lg:h-[76vh] md:h-[55vh] h-[62vh] hover:border-fuchsia-400/20 shadow-fuchsia-400/40 hover:shadow-[0_0_12px_0_rgba(0,0,0,0.3)]  rounded-md  hover:-translate-y-2 transition-all duration-700 cursor-pointer">
               <img src={blog.image} className="w-full rounded-t-md h-[200px]" alt="" />
               <div className=" w-full flex flex-col h-[250px] justify-between">
               <div className="flex flex-col gap-2 py-5 p-2">
