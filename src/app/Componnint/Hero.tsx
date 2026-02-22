@@ -10,7 +10,7 @@ function Hero() {
               <div className="absolute left-6 top-24 w-72 h-72 rounded-full bg-fuchsia-400/40 filter blur-2xl circle-animate "></div>
             <span className='text-cyan-600 font-bold  text-xl'>Salam, I'm</span>
             <h1 className='lg:text-8xl font-bold md:text-6xl text-3xl z-40 bg-linear-to-l from-[#042862] via-fuchsia-400 via-25% text-transparent bg-clip-text to-[#042862]'>Nazi Sharifi</h1>
-            <h2 className='md:text-4xl text-2xl text-stone-400 font-bold md:font-medium text-shadow-blue-400 lg:text-start text-center '>Backend Developer & Frontend Developer</h2>
+            <h2 className='md:text-4xl text-2xl text-stone-400 font-bold md:font-medium text-shadow-blue-400 lg:text-start text-center '>Full Stack Developer</h2>
             <p className=' md:w-[80%] w-full lg:text-start text-center  text-xl text-stone-400'>I build modern, responsive websites that help brands grow and get noticed online. Passionate about collaborating with creative minds and exploring opportunities to learn and innovate.</p>
             <div className='flex gap-5 items-center mt-12'>
                <button className=" p-3 text-white rounded-full border border-stone-400 bg-stone-950 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50"><Link href="https://github.com/nazisharifi2025" target="_blank"> <Github/> </Link></button>
