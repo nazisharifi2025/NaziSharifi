@@ -20,7 +20,7 @@ function Project() {
         {
             id: 2,
             img: "/project2.png",
-            name: "Conistraction Company",
+            name: "Construction Company",
             dis: "A modern, interactive web app to explore, organize, and share your favorite flowers with stunning visuals and smooth user experience.",
             link: "https://construction-compani-app.vercel.app/",
             date: "10/34/2025",
@@ -32,7 +32,7 @@ function Project() {
         {
             id: 3,
             img: "/project5.png",
-            name: "Dashbord Center",
+            name: "Dashboard for Education Center",
             dis: "A modern, interactive web app to explore, organize, and share your favorite flowers with stunning visuals and smooth user experience.",
             link: "",
             date: "9/24/2025",
@@ -44,7 +44,7 @@ function Project() {
               {
             id: 4,
             img: "/project3.png",
-            name: "Charety",
+            name: "Charity Founder",
             dis: "A modern, interactive web app to explore, organize, and share your favorite flowers with stunning visuals and smooth user experience.",
             link: "https://charity-gamma-khaki.vercel.app/",
             date: "7/5/2025",
@@ -73,10 +73,10 @@ function Project() {
                     <Link target='_blank' className='text-xl text-stone-300 hover:text-blue-400' href={Pro.link}>{Pro.link}</Link>
                     <div className='w-full flex md:flex-row flex-col justify-between md:items-center items-end'>
                     <div className='flex flex-wrap gap-3 px-4 '>
-                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.a}</button>
-                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.b}</button>
-                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.c}</button>
-                        <button className='rounded-full px-4 py-1.5 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.d}</button>
+                        <button className='rounded-full px-4 py-1.5 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.a}</button>
+                        <button className='rounded-full px-4 py-1.5 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.b}</button>
+                        <button className='rounded-full px-4 py-1.5 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.c}</button>
+                        <button className='rounded-full px-4 py-1.5 hover:shadow-2xl shadow-fuchsia-400/50 hover:border-fuchsia-400/50 border border-stone-400 bg-stone-600/20 text-stone-300 '>{Pro.d}</button>
                     </div>
                     <span className='flex gap-1 text-stone-400'><Calendar />{Pro.date}</span>
                     </div>
