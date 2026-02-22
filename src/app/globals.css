@@ -178,3 +178,26 @@
     @apply bg-background text-foreground;
   }
 }
+/* animit */
+
+.circle-animate {
+  animation: circle infinite 4s linear;
+}
+@keyframes circle {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 1;
+  }
+  33% {
+    transform: translate(9px, -9px) scale(0.8);
+    opacity: 0.4;
+  }
+  66% {
+    transform: translate(-9px, 9px) scale(0.9);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 1;
+  }
+}
