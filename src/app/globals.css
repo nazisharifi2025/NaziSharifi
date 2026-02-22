@@ -183,6 +183,7 @@
 @layer utilities {
   .circle-animate {
   animation: circle infinite 4s linear;
+  animation: duration 1px;
 }
 @keyframes circle {
   0% {
