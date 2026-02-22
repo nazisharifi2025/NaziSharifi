@@ -124,7 +124,7 @@ function Git() {
               />
             </label>
 
-            <button className='px-6 w-[70%] py-2   hover:bg-stone-300 hover:-translate-y-1 transform-3d transition-all duration-300 bg-stone-400 text-black rounded-sm'>
+            <button className='px-6 w-[70%] py-2  hover:shadow  hover:bg-stone-300 hover:-translate-y-1 transform-3d transition-all duration-300 bg-stone-400 text-black rounded-sm'>
               Send Message
             </button>
           </form>
