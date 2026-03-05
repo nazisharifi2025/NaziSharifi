@@ -13,17 +13,17 @@ function Menunav() {
         {
             id: 2,
             Name: 'About',
-            href: '#aboutme'  
+            href: '/#aboutme'  
         },
         {
             id: 3,
             Name: 'Skills',
-            href: '#scill'
+            href: '/#scill'
         },
         {
             id: 4,  
             Name: 'Projects',
-            href: '#project'
+            href: '/#project'
         },
         {
             id: 5,  
@@ -33,7 +33,7 @@ function Menunav() {
         {
             id: 6,  
             Name: 'Contact',
-            href: '#contactme'
+            href: '/#contactme'
         },
     ]
     const PathName = usePathname();
